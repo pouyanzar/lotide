@@ -22,7 +22,7 @@ const middle = function(arr) {
   if (arrLength < 3) {
     return [];
   } else if (arrLength % 2 === 0) {
-    middleArray.push(arr[arrLength / 2 - 1], arr[arrLength / 2]);
+    middleArray.push(arr[(arrLength / 2) - 1], arr[arrLength / 2]);
   } else {
     middleArray.push(arr[Math.floor(arrLength / 2)])
   }
