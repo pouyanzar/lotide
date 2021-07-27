@@ -10,22 +10,22 @@ const countLetters = require('./countLetters');
 const findKey = require('./findKey');
 const countOnly = require('./countOnly');
 const map = require('./map');
-const takeUtil = require('./takeUtil');
+const takeUntil = require('./takeUntil');
 const without = require('./without');
 
 module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
-  eqArrays: eqArrays,
-  assertEqual: assertEqual,
-  assertArraysEqual: assertArraysEqual,
-  eqObjects: eqObjects,
-  assertObjectEqual: assertObjectEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findKey: findKey,
-  map: map,
-  takeUtil: takeUtil,
-  without, without
+  head,
+  tail,
+  middle,
+  eqArrays,
+  assertEqual,
+  assertArraysEqual,
+  eqObjects,
+  assertObjectEqual,
+  countLetters,
+  countOnly,
+  findKey,
+  map,
+  takeUntil,
+  without
 };
